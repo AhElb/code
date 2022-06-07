@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="keywords" content="codego,core banking, whitelabel,banking,wallet,crypto,card">
+ <meta name="description" content="White label core banking and financial systems">
+<meta name="theme-color" content="#f5871f" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+     <title>Codego - White label merchant gateway</title>
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+<link href="../css/responsive.css" rel="stylesheet">
+<link href="../css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img src="../images/logo.png" alt=""></a>
+          <div class="nav_right order-lg-3">
+              <div class="selector">
+                <a class="selector__toggle" data-toggle="dropdown" href="#"><figure><img src="../images/Flag_of_Russia.png" alt=""></figure> <span class="valueOfButton d-none d-xl-inline-block">Русский</span> <i class="fa fa-caret-down"></i></a>
+                <ul class="selector__list">
+                    <li><a href="../merchant_crypto_gateway.html" class="/boomerang"><figure><img src="../images/flag_img1.png" alt=""></figure> <span class="d-none d-xl-inline-block">English</span></a></li>
+                    <li><a href="../sp/merchant_crypto_gateway.html" class="/de/blog"><figure><img src="../images/spain.png" alt=""></figure> <span class="d-none d-xl-inline-block">Español</span></a></li>
+                </ul>
+              </div>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>              </button>
+          </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html"><i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 12H3L12 3L21 12H19" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 12V19C5 19.5304 5.21071 20.0391 5.58579 20.4142C5.96086 20.7893 6.46957 21 7 21H17C17.5304 21 18.0391 20.7893 18.4142 20.4142C18.7893 20.0391 19 19.5304 19 19V12" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 12H10V16H14V12Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></i>Главная</a></li>
+              <li class="nav-item"><a class="nav-link" href="company.html"><i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 7H5C3.89543 7 3 7.89543 3 9V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V9C21 7.89543 20.1046 7 19 7Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 7V5C8 4.46957 8.21071 3.96086 8.58579 3.58579C8.96086 3.21071 9.46957 3 10 3H14C14.5304 3 15.0391 3.21071 15.4142 3.58579C15.7893 3.96086 16 4.46957 16 5V7" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 12V12.01" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 13C5.79158 14.4067 8.87403 15.1394 12 15.1394C15.126 15.1394 18.2084 14.4067 21 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></i> Компания</a></li>
+              <li class="nav-item  products"><a class="nav-link" href="#"><i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3L20 7.5V16.5L12 21L4 16.5V7.5L12 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 12L20 7.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 12V21" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 12L4 7.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 5.25L8 9.75" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></i>Продукты</a>  <div class="drop-product">
+    <div class="container flex-coint">
+
+                            <div class="head-drop col-md-6 col-sm-6  col-xs-12">
+                                <h3>Продукты</h3>
+                                <h6>Узнайте больше обо всех возможностях продуктов от Codego для вашего бизнеса</h6>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <ul>
+                             <li><a href="core_banking.html">Банковское решение</a></li>
+                            <li><a href="white_label_crypto_exchange.html">Криптобиржа</a></li>
+                            <li><a href="wallet_system.html">Электронный кошелек</a></li>
+                            <li><a href="merchant_crypto_gateway.html">Торговый криптошлюз</a></li>
+                            <li><a href="exchange_listing_services2.html">Предоплаченная карта White Label</a></li>
+
+                              </ul>
+                                
+                                        
+                            </div>
+                        </div>
+                                          
+                                          
+                                         
+                                          
+  </div></li>
+
+            
+            </ul>
+          </div>
+      </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero_sec merchand_banner">
+	<div class="container">
+    	<div class="row g-0 align-items-center">
+        	<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            	<div class="detail">
+                    <h1><small>Торговый криптошлюз</small>Раскройте потенциал своей монеты</h1>
+               	  <p>С нашим торговым криптошлюзом ваша монета расширит свое использование, позволяя вашим пользователям покупать и продавать продукты и услуги в реальном мире. Заключайте выгодные сделки с лучшими магазинами и прославьтесь на новых рынках.</p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSd9EW2D0UTK5tiRx0ov3wcf05-3_kEfRk6q7esKCJevVJw8ng/viewform" target="_blank" class="btn">
+                    Начать</a>               </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-md-end">
+            	<figure><img src="../images/merchant_img.png" alt=""></figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefit Section -->
+<section class="benefit_sec">
+	<div class="container">
+    	<h2 class="title"><span>Наш торговый криптошлюз</span> <strong>Merchant</strong></h2>
+        <p>быстро и безопасно передаёт данные о платежах</p>
+        <div class="row">
+        	<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb_3">
+            	<div class="benefit_block">
+                	<div class="detail">
+                        <figure><img src="../images/merchant_icon1.svg" alt=""></figure>
+                        <h3>Запрос на оплату по электронной почте</h3>
+                    </div>
+                    <p>Вы можете в любой момент выставить счет на продукты или услуги. Клиент получит электронное письмо с возможностью прямой оплаты.</p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb_3">
+            	<div class="benefit_block">
+                	<div class="detail">
+                        <figure><img src="../images/merchant_icon2.svg" alt=""></figure>
+                        <h3>Запрос на оплату по QR-коду</h3>
+                    </div>
+                    <p>В своем отеле, ресторане, магазине, на веб-сайте, просто покажите QR-код вашему клиенту на POS-терминальном устройстве или в приложении Android / iOS, для совершения надежной оплаты.</p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb_3">
+            	<div class="benefit_block">
+                	<div class="detail">
+                        <figure><img src="../images/merchant_icon3.svg" alt=""></figure>
+                        <h3>Плагин WooCommerce</h3>
+                    </div>
+                    <p>Получайте платежи с веб-сайта с помощью плагина для WooCommerce
+
+</p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb_3">
+            	<div class="benefit_block">
+                	<div class="detail">
+                        <figure><img src="../images/merchant_icon4.svg" alt=""></figure>
+                        <h3>Продавайте свои товары с комиссией 0%</h3>
+                    </div>
+                    <p>Открытие торгового счета у нас бесплатно, с комиссией 0% за все транзакции. Мы единственные в мире, кто предлагает такие условия.</p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb_3">
+            	<div class="benefit_block">
+                	<div class="detail">
+                        <figure><img src="../images/merchant_icon5.svg" alt=""></figure>
+                        <h3>POS-терминал</h3>
+                    </div>
+                    <p>Первый POS-терминал, который принимает платежи с помощью VISA / MASTERCARD / AMEX и криптовалют.</p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb_3">
+            	<div class="benefit_block">
+                	<div class="detail">
+                        <figure><img src="../images/benefit_ic_5.svg" alt=""></figure>
+                        <h3>Мобильное приложение Android / iOS</h3>
+                    </div>
+                    <p>Продавайте свои продукты и услуги через мобильное приложение на Android / iOS.</p>
+                </div>
+            </div>
+            
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb_3">
+            	<div class="benefit_block">
+                	<div class="detail">
+                        <figure><img src="../images/merchant_icon7.svg" alt=""></figure>
+                        <h3>Конвертация в евро</h3>
+                    </div>
+                    <p>Вы можете конвертировать свои средства из криптовалют BTC / ETH / LTC / BCH, в Евро, и переводить на свою предоплаченную карту или счет в банке.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+
+<div class="footer_detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                <figure class="ft_logo"><img src="../images/logo.png" alt=""></figure>
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                        <h3>Продукты</h3>
+                        <ul class="ft_link">
+                            <li><a href="core_banking.html">Банковское решение</a></li>
+                            <li><a href="white_label_crypto_exchange.html">Криптобиржа White Label</a></li>
+                            <li><a href="wallet_system.html">Электронный кошелек</a></li>
+                            <li><a href="merchant_crypto_gateway.html">Торговый криптошлюз</a></li>
+                            <li><a href="exchange_listing_services2.html">Предоплаченная карта White Label</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <h3>Компания</h3>
+                        <ul class="ft_link">
+                            <li><a href="company.html">О нас</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd9EW2D0UTK5tiRx0ov3wcf05-3_kEfRk6q7esKCJevVJw8ng/viewform" target="_blank">Связаться с нами</a></li>
+                        </ul>
+                        
+                        <h3>Новости</h3>
+                        <ul class="ft_link">
+                            <li><a href="https://newsbitcoin.cash/codego-the-most-innovative-fintech-2021/">News Bitcoin</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <h3>Документы API</h3>
+                        <ul class="ft_link">
+                            <li><a href="https://apicard.codegotech.com/">API Visa предоплаченная карта</a></li>
+                            <li><a href="https://documenter.getpostman.com/view/15646572/TzRNEpcN">API White Label Exchange</a></li>
+                        </ul>
+                        
+                        <h3>Мы в соц.сетях</h3>
+                        <ul class="ft_social">
+                            <li><a href="https://www.facebook.com/CodegoGroup"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/CodegoCore"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/codegoltd"><i class="fa fa-linkedin-square"></i></a></li>
+                            <li><a href="https://www.instagram.com/codegogroup"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <span>Email : <a href="mailto:banking@codegotech.com">banking@codegotech.com</a></span>
+                        <h4>Codego Ltd</h4>
+                        <p>Kemp House 160, EC1V 2NX, London, United Kingdom</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="locat_info">
+                    <div class="location_block">
+                        <h5>Codego Egypt Ltd</h5>
+                        <p>Viva Mall, El Salam Road, Sharm El Sheikh, Egypt</p>
+                    </div>
+                    
+                    <div class="location_block">
+                        <h5>Codego Srl</h5>
+                        <p>Via Libertà 159, 90143, Palermo, Italy</p>
+                    </div>
+                    
+                    <div class="location_block">
+                        <h5>Codego Spain S.L.</h5>
+                        <p>Carrer Balmes 28, 08007 Barcelona, Spain</p>
+                    </div>
+
+                    <div class="location_block">
+                        <h5>Codego Turkey A.S.</h5>
+                        <p>Gayrettepe Mh. Yildiz Posta Cd. No:52 Kat :9 D Plaza Besiktas Istanbul, Turkey</p>
+                    </div>
+                    
+                    <div class="location_block">
+                        <h5>Codego Ireland Ltd</h5>
+                        <p>UNIT 3D North point House, North Point Business Park, New Mallow Road, Cork, Ireland</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</footer>
+
+<!-- Js -->
+<script src="../js/jquery-3.5.1.min.js" ></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script>
+$ = jQuery.noConflict();
+
+// scrollTo plugin
+$.fn.scrollTo = function( target, options, callback ){
+  if(typeof options == 'function' && arguments.length == 2){ callback = options; options = target; }
+  var settings = $.extend({
+    scrollTarget  : target,
+    offsetTop     : 185,
+    duration      : 0,
+    easing        : 'linear'
+  }, options);
+  return this.each(function(){
+    var scrollPane = $(this);
+    var scrollTarget = (typeof settings.scrollTarget == "number") ? settings.scrollTarget : $(settings.scrollTarget);
+    var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top + scrollPane.scrollTop() - parseInt(settings.offsetTop);
+    scrollPane.animate({scrollTop : scrollY }, parseInt(settings.duration), settings.easing, function(){
+      if (typeof callback == 'function') { callback.call(this); }
+    });
+  });
+}
+
+
+//My code
+//The function that is listing the the mouse
+jQuery(".selector .selector__list li").mouseover(function() {
+        console.log('mousie')
+        jQuery(".selector .selector__list li").removeClass('selected');
+        jQuery(this).addClass('selected');
+})
+
+
+// if the li item is clicked display the value inside the button
+jQuery('.selector__list li ').click(function() {
+
+        //select the span where we want the place te value
+        console.log(jQuery(this).parent().parent().parent() );
+        jQuery(this).parent().parent().parent().find('.valueOfButton')
+
+        //get the html we want to place in the span and fill the div .valueOfButton
+        .html(jQuery(this).text());
+
+        //populate the hidden form input element
+ jQuery(this).parent().parent().parent().find('input').val(jQuery(this).data('key'));
+
+});
+
+
+//What to do when the keyboard is pressed
+jQuery(".selector").keydown(function(e) {
+    if (e.keyCode == 38) { // up
+        console.log('keyup pressed');
+        var selected = jQuery('.selected');
+        jQuery(".selector .selector__list li").removeClass('selected');
+        if (selected.prev().length == 0) {
+            selected.siblings().last().addClass('selected');
+        } else {
+            selected.prev().addClass('selected');
+            jQuery('.selector .selector__list').scrollTo('.selected');
+        }
+    }
+    if (e.keyCode == 40) { // down
+        console.log('keydown');
+        var selected = jQuery('.selected');
+        jQuery(".selector .selector__list li").removeClass('selected');
+        if (selected.next().length == 0) {
+            selected.siblings().first().addClass('selected');
+        } else {
+            selected.next().addClass('selected');
+            jQuery('.selector .selector__list').scrollTo('.selected');
+        }
+    }
+
+    //if we press enter display choise in button
+    if (e.keyCode == 13) { // enter
+
+            console.log('enter pressed');
+            console.log(jQuery('.selected').parent().parent().parent() )
+            jQuery('.selected').parent().parent().find('.valueOfButton')
+            //get the html we want to place in the span and fill the div   .valueOfButton
+            .html(jQuery('.selected').text());
+            //populate the hidden form input element
+                       jQuery('.selected').parent().parent().parent().find('input').val(jQuery(this).data('key'));
+
+        }
+
+});
+
+var pathname = window.location.pathname;
+var language_links = $('.selector__list a').get();
+
+console.log(language_links);
+
+$.each(language_links, function( index, value) {
+	var link_href = value['className'];
+	console.log(value['className']);
+	var blog_path = link_href.replace('http://www.speaklike.com/', '');
+	
+	if( pathname.indexOf(blog_path) ){
+	} else {
+		$('.valueOfButton').html($(this).text());
+	}
+});
+
+//console.log(is_language);
+
+var selector_open = false;
+
+$('.selector__toggle').on('click', function(){
+	if(selector_open == false){
+		selector_open = open;
+		$(this).parent().removeClass('closed').addClass('open');  
+	} else {
+		selector_open = false;
+		$(this).parent().removeClass('open').addClass('closed');
+	}
+});
+
+$('.selector__list a').on('click', function(){
+	selector_open = false;
+	$(this).parents('.selector').removeClass('open').addClass('closed');
+});
+</script>
+<script>
+$(".navbar-toggler").click(function(){
+  $("header").toggleClass("show");
+});
+</script>
+</body>
+</html>
