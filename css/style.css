@@ -345,7 +345,7 @@ ul.ft_social li a:hover{ border-color:#FDE460; color:#FDE460;}
 .paymentopt_sec figure{ margin:50px 0 0 0;}
 
 /*=============== Core Banking Page ===============*/
-.corebank_banner.hero_sec{ background:url(../images/corebank_banner.png) no-repeat center center; background-size:cover;}
+.corebank_banner.hero_sec{ }
 
 .choose_sec{ margin:0 0 148px; padding:164px 0 0 0; background:url(../images/choose_curve.png) no-repeat bottom 15px right 10%;}
 .choose_sec .detail{ margin-bottom:30px;}
@@ -358,9 +358,10 @@ ul.ft_social li a:hover{ border-color:#FDE460; color:#FDE460;}
 
 .onboarding_sec{ padding:88px 0 58px; background:url(../images/onboarding_bg.jpg) no-repeat center center; background-size:cover; text-align:center;}
 .onboarding_sec figure{ margin:0; padding:0;}
-.onboard_block{ width:100%; max-width:184px; height:184px; margin:0 auto 30px; padding:45px 15px 15px; background:#FFFFFF; box-shadow:0px 0px 54px rgba(224, 224, 224, 0.25); border-radius: 50%; text-align:center; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; transition:all .4s ease-in-out;}
+.onboard_block{ width:100%; max-width:184px; height:184px; margin:0 auto 30px; padding:45px 15px 15px; background:#FFFFFF; box-shadow:0px 0px 54px rgba(224, 224, 224, 0.25); border-radius: 10%; text-align:center; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; transition:all .4s ease-in-out;}
 .onboard_block i{ margin:0 0 8px; padding:0; display:inline-block; line-height:54px;}
 .onboard_block h4{ margin:0; padding:0; font-weight: 600; font-size: 20px; line-height: 32px; color: #2B303C;}
+.onboard_block img{height: 70px;}
 .onboard_block:hover { box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.1);}
 
 .mabank_sec.mabank_sec3{ background-position:left 10% top 80px;}
