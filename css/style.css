@@ -434,3 +434,7 @@ ul.ft_social li a:hover{ border-color:#FDE460; color:#FDE460;}
 .backend_sec .container{ max-width:1230px;}
 .backend_sec .row>div{ margin-bottom:25px;}
 .backend_sec h3{ margin:0; padding:12px 30px; font-weight: 600; font-size: 16px; line-height: 21px; color: #000000; background: #FFFFFF; border: 1px solid #EEEEEE; border-radius: 10px; height:100%; display:flex; justify-content:center; align-items:center; text-align:center; min-height:70px;}
+.onboarding_sec figure img{
+    width: 70%;
+    margin: 20px 0;
+}
