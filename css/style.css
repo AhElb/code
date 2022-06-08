@@ -345,7 +345,7 @@ ul.ft_social li a:hover{ border-color:#FDE460; color:#FDE460;}
 .paymentopt_sec figure{ margin:50px 0 0 0;}
 
 /*=============== Core Banking Page ===============*/
-.corebank_banner.hero_sec{ background:url(../images/corebank_banner.jpg) no-repeat center center; background-size:cover;}
+.corebank_banner.hero_sec{ background:url(../images/corebank_banner.png) no-repeat center center; background-size:cover;}
 
 .choose_sec{ margin:0 0 148px; padding:164px 0 0 0; background:url(../images/choose_curve.png) no-repeat bottom 15px right 10%;}
 .choose_sec .detail{ margin-bottom:30px;}
